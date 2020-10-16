@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+/* navbar start from here */
+img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+h1,h2,h3{
+    text-align: center;
+    color: white;
+   
+}
+a{
+    text-decoration: none;
+    font-size: 33px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+a:hover{
+    background-color: gray;
+    border-radius: 100px;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.navbar{
+    background-color: teal;
+    text-align: center;
+    padding: 10px;
+}
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* navbar ends here */
+
+/* column starts from here */
+
+/* .column img{
+    width:50%;
+    
+}
+.column h1{
+    color: teal;
+    text-align: left;
+}
+.column p{
+    width: 25%;
+    text-align: justify;
+} 
+.column{
+    float: left;
+    width: 50%;
+    padding:10px;
+} */
+
+.column p{
+    text-align: justify;
+}
+
+.column{
+    background-color: tan;
+    width: 100%;
+}
+.column::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* column ends from here */
+.my-wife-tania h1{
+    color: indigo;
+    padding: 20px;
+    
+    
+}
+.services h1{
+    color: white;
+}
+.services{
+    width: 100%;
+    background-color: violet;
+}
+.my-wife-tania::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* here form start */
+fieldset{
+    width: 450px;
+    background-color: tan;
+}
+fieldset::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+iframe{
+    width: 450px;
+    height: 300px;
+}
+iframe::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    
+    width: 990px;
+    
+
+}
+
+
+.services:hover{
+    box-shadow: 2px 4px 6px teal;
+    background-color: purple;
+}

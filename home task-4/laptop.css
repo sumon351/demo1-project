@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar stars from here */
+.nav-img{
+    float: left;
+}
+.nav-heading{
+    float: left;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a:hover{
+    background-color: gray;
+    
+
+}
+/* navbar ends here */
+
+/* column starts from here */
+
+
+/* .column img{
+    width: 25%;
+    
+}
+.column h1{
+    color: teal;
+    text-align: left;
+}
+.column p{
+    width: 25%;
+    text-align: justify;
+} */
+.column h1{
+    color: teal;
+}
+.column p{
+    text-align: justify;
+}
+.column img{
+    width: 300px;
+    height: 300px;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: thistle;
+}
+/* column ends from here */
+
+
+/* services design start here */
+.my-wife-tania{
+    
+}
+.my-wife-tania h1{
+    color: purple;
+}
+.services h1{
+    color: tomato;
+    font-size: 22px;
+}
+.services p{
+    text-align: justify;
+}
+.services{
+    float: left;
+    width: 24%;
+    
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color:pink;
+    border-radius: 29px;
+    
+}
+/* our services design end */
+
+/* here form start */
+form{
+    
+}
+fieldset{
+    background-color: tan;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+
+}
+legend{
+    color:black;
+    font-weight: bold;
+    font-size: 33px;
+}
+/* here form end */
+
+
+iframe{
+    width: 100%;
+}
+.footer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
